@@ -1,0 +1,48 @@
+import { RobotModel } from "../types";
+
+export const ROBOT_MODELS: RobotModel[] = [
+  {
+    id: "vortex-v1",
+    name: "Vortex V1",
+    category: "VEHICLE",
+    description: "Veiculo rapido para ataques em curva e investidas curtas.",
+    basePricePerMinute: 3.4,
+    maxSpeed: 38,
+    armorLevel: 62,
+    hasIntegratedCamera: true,
+    accent: "#ff5c45",
+  },
+  {
+    id: "rhino-track",
+    name: "Rhino Track",
+    category: "VEHICLE",
+    description: "Plataforma de esteiras com alta estabilidade para iniciantes.",
+    basePricePerMinute: 2.8,
+    maxSpeed: 24,
+    armorLevel: 78,
+    hasIntegratedCamera: false,
+    accent: "#ffbf3f",
+  },
+  {
+    id: "atlas-mk2",
+    name: "Atlas MK-II",
+    category: "MECH",
+    description: "Robo de combate equilibrado para torneios de media duracao.",
+    basePricePerMinute: 4.6,
+    maxSpeed: 22,
+    armorLevel: 86,
+    hasIntegratedCamera: true,
+    accent: "#45c1ff",
+  },
+  {
+    id: "spark-jr",
+    name: "Spark JR",
+    category: "MECH",
+    description: "Modelo leve para treino e brincadeira com custo reduzido.",
+    basePricePerMinute: 2.1,
+    maxSpeed: 28,
+    armorLevel: 47,
+    hasIntegratedCamera: false,
+    accent: "#8bff7d",
+  },
+];
